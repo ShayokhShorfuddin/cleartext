@@ -1,26 +1,19 @@
 "use client";
 
 import { useRef } from "react";
-import remarkParse from "remark-parse";
-import { unified } from "unified";
+import { validate } from "./validate";
 
 export default function Page() {
-  // TODO: Implement validator on this page
-
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   function checkIfItsParsingOrNot() {
-    console.log("Fired");
-
     if (!textareaRef.current) {
       return;
     }
 
     const content = textareaRef.current.value;
 
-    const tree = unified().use(remarkParse).parse(content);
-
-    console.log(tree);
+    validate(content);
   }
 
   return (
@@ -43,35 +36,3 @@ export default function Page() {
     </main>
   );
 }
-
-// Great!
-// For this:
-
-// # Title
-
-// > Optional description goes here
-
-// We are getting something like this:
-
-// {type: 'root', children: Array(2), position: {…}}
-// children
-// :
-// Array(2)
-// 0
-// :
-// {type: 'heading', depth: 1, children: Array(1), position: {…}}
-// 1
-// :
-// {type: 'blockquote', children: Array(1), position: {…}}
-// length
-// :
-// 2
-// [[Prototype]]
-// :
-// Array(0)
-// position
-// :
-// {start: {…}, end: {…}}
-// type
-// :
-// "root"
