@@ -121,10 +121,17 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
+}
+
+@theme {
+  --color-light-green: #8BFB91;
+  --color-dark-green: #006E23;
 }
