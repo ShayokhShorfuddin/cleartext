@@ -1,4 +1,5 @@
 import { Footer } from "./_components/Footer";
+import { Hero } from "./_components/Hero";
 import { Navbar } from "./_components/Navbar";
 
 export default function Page() {
@@ -7,7 +8,7 @@ export default function Page() {
       <Navbar />
 
       <main>
-        <p>Hello</p>
+        <Hero />
       </main>
 
       <Footer />
