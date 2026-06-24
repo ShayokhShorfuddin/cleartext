@@ -1,5 +1,3 @@
-"use client";
-
 const FULL_TEXT = `# Cleartext
 
 > The precision llms.txt builder for developers. Standardize how LLMs and agents crawl your documentation. Build, validate, and deploy high- density manifest files with clinical precision.
@@ -13,6 +11,7 @@ const FULL_TEXT = `# Cleartext
 export function Editor() {
   return (
     <div>
+      {/* TODO: No need to generate the characters one by one. Keep the entire text as they are. Only the blinking cursor needs to be implemented */}
       <p>{FULL_TEXT}</p>
     </div>
   );
