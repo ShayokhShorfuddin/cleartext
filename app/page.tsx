@@ -1,6 +1,7 @@
 import { Footer } from "./_components/Footer";
 import { Hero } from "./_components/Hero";
 import { Navbar } from "./_components/Navbar";
+import { PreciseControl } from "./_components/PreciseControl";
 
 export default function Page() {
   return (
@@ -9,6 +10,10 @@ export default function Page() {
 
       <main>
         <Hero />
+
+        <hr className="mx-10 mt-30 border border-[#efefef]" />
+
+        <PreciseControl />
 
         {/* TODO: Remove me later */}
         <div className="h-screen"></div>

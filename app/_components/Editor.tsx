@@ -49,11 +49,12 @@ function EditorBody() {
 function EditorFooter() {
   return (
     <div className="flex justify-between px-3 bg-[#F1F4F8] border border-t-0 border-[#C4C7C7] rounded-b-sm py-1">
-      <div className="flex items-center gap-x-1">
+      <div className="flex items-center gap-x-1 select-none">
         <VoltIcon />
         <small className="text-[12px] italic">Ready</small>
       </div>
-      <small className="text-[12px]">Ln 9, Col 104</small>
+
+      <small className="text-[12px] select-none">Ln 9, Col 104</small>
     </div>
   );
 }
