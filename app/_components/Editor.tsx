@@ -12,7 +12,7 @@ export function Editor() {
   return (
     <div>
       {/* TODO: No need to generate the characters one by one. Keep the entire text as they are. Only the blinking cursor needs to be implemented */}
-      <p>{FULL_TEXT}</p>
+      <p className="max-w-[10rem]">{FULL_TEXT}</p>
     </div>
   );
 }

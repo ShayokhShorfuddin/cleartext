@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Navbar() {
   return (
     <header>
-      <nav className="flex justify-between px-10 py-3 border-b">
+      <nav className="flex items-center justify-between px-10 py-3 border-b">
         {/* Logo */}
         <p className="font-medium text-lg">
           Cleartext<span className="text-green-600">.</span>
@@ -31,7 +31,7 @@ export function Navbar() {
 
         {/* Light/dark mode toggle icon*/}
         {/* TODO: Implement  Light/dark mode toggle*/}
-        <Moon strokeWidth={1.5} />
+        <Moon strokeWidth={1.5} size={20} />
       </nav>
     </header>
   );

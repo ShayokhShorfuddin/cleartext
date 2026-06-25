@@ -9,6 +9,9 @@ export default function Page() {
 
       <main>
         <Hero />
+
+        {/* TODO: Remove me later */}
+        <div className="h-screen"></div>
       </main>
 
       <Footer />

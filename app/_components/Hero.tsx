@@ -3,17 +3,17 @@ import { HeroCTAButton } from "./HeroCTAButtons";
 
 export function Hero() {
   return (
-    <section className="flex items-center">
+    <section className="flex justify-between mx-10 mt-10">
       {/* Left side */}
-      <div className="flex flex-col">
-        <h1>
-          The precision <span className="bg-light-green">llms.txt</span> builder
-          for developers.
+      <div className="flex flex-col gap-y-5 w-full max-w-[27rem]">
+        <h1 className="text-5xl font-medium leading-tight">
+          The precision <span className="bg-light-green px-1">llms.txt</span>{" "}
+          platform for developers.
         </h1>
 
-        <p>
-          Standardize how LLMs and agents crawl your documentation. Build,
-          validate, and deploy high- density manifest files with clinical
+        <p className="text-neutral-700">
+          Ensure LLMs and agents crawl your documentation effortlessly. Build,
+          validate, and deploy high-density manifest files with clinical
           precision.
         </p>
 
