@@ -18,7 +18,7 @@ export default function Page() {
         {/* TODO: Add mobile screen breakpoint */}
 
         {/* TODO: Remove me later */}
-        <div className="h-screen"></div>
+        {/* <div className="h-screen"></div> */}
       </main>
 
       <Footer />
