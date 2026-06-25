@@ -61,7 +61,7 @@ function EditorFooter() {
 
 function EditorHeader() {
   return (
-    <div className="flex items-center justify-between bg-[#F1F4F8] border border-[#C4C7C7] rounded-t-sm py-3 px-5">
+    <div className="flex items-center justify-between gap-x-3 bg-[#F1F4F8] border border-[#C4C7C7] rounded-t-sm py-3 px-5">
       <div className="flex items-center justify-between gap-x-6">
         {/* Three dots */}
         <div className="flex items-center gap-x-2">
@@ -71,7 +71,7 @@ function EditorHeader() {
         </div>
 
         {/* Filename */}
-        <div className="flex items-center border border-[#C4C7C7] px-3.5 py-1 gap-x-2.5 rounded bg-white">
+        <div className="hidden md:flex items-center border border-[#C4C7C7] px-3.5 py-1 gap-x-2.5 rounded bg-white">
           <FileText size={16} />
           <p className="text-[13px] text-neutral-700 select-none">llms.txt</p>
         </div>
