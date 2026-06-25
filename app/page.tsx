@@ -17,6 +17,4 @@ export default function Page() {
       <Footer />
     </>
   );
-
-  // TODO: Build the homepage
 }

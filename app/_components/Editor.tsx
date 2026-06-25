@@ -18,7 +18,6 @@ const FULL_TEXT = `# Cleartext
 export function Editor() {
   return (
     <div className={`${jetbrainsMono.className} w-full max-w-[47rem]`}>
-      {/* TODO: No need to generate the characters one by one. Keep the entire text as they are. Only the blinking cursor needs to be implemented */}
       <EditorHeader />
       <EditorBody />
       <EditorFooter />

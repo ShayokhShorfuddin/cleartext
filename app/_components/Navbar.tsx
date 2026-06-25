@@ -30,7 +30,7 @@ export function Navbar() {
         </div>
 
         {/* Light/dark mode toggle icon*/}
-        {/* TODO: Implement  Light/dark mode toggle*/}
+        {/* TODO: Implement Light/dark mode toggle*/}
         <Moon strokeWidth={1.5} size={20} />
       </nav>
     </header>
