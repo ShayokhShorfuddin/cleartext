@@ -12,7 +12,7 @@ export function Hero() {
         </h1>
 
         <p className="text-neutral-700">
-          Ensure LLMs and agents crawl your documentation effortlessly. Build,
+          Ensure LLMs and agents crawl your site content effortlessly. Build,
           validate, and deploy high-density manifest files with clinical
           precision.
         </p>
