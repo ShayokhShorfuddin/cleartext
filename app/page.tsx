@@ -1,4 +1,5 @@
 import { BentoGrid } from "./_components/BentoGrid";
+import { CTA } from "./_components/CTA";
 import { Footer } from "./_components/Footer";
 import { Hero } from "./_components/Hero";
 import { Navbar } from "./_components/Navbar";
@@ -16,11 +17,9 @@ export default function Page() {
 
         <PreciseControl />
         <BentoGrid />
+        <CTA />
 
         {/* TODO: Add mobile screen breakpoint */}
-
-        {/* TODO: Remove me later */}
-        {/* <div className="h-screen"></div> */}
       </main>
 
       <Footer />

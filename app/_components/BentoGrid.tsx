@@ -1,5 +1,3 @@
-// TODO: Work here. Remove root level hosting and semantic mapping. Add Spec Guide, Privacy, Community Gallery
-
 export function BentoGrid() {
   return (
     <section className="flex flex-col items-center mt-30 mx-10">
