@@ -3,7 +3,7 @@ import { HeroCTAButton } from "./HeroCTAButtons";
 
 export function Hero() {
   return (
-    <section className="flex justify-between mx-10 mt-10 gap-x-8">
+    <section className="flex justify-between mx-10 mt-15 gap-x-8">
       {/* Left side */}
       <div className="flex flex-col gap-y-5 w-full max-w-[27rem]">
         <h1 className="text-5xl font-medium leading-tight">

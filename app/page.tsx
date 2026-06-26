@@ -1,3 +1,4 @@
+import { BentoGrid } from "./_components/BentoGrid";
 import { Footer } from "./_components/Footer";
 import { Hero } from "./_components/Hero";
 import { Navbar } from "./_components/Navbar";
@@ -14,6 +15,7 @@ export default function Page() {
         <hr className="mx-10 mt-30 border border-[#efefef]" />
 
         <PreciseControl />
+        <BentoGrid />
 
         {/* TODO: Add mobile screen breakpoint */}
 
