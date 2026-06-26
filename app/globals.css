@@ -135,6 +135,8 @@
   --color-light-green: #8BFB91;
   --color-dark-green: #006E23;
 
+  --breakpoint-xs: 30rem;
+
   --animate-blink: blink 1.3s infinite;
 
   @keyframes blink {
